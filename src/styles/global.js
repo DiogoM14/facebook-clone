@@ -7,12 +7,13 @@ export default createGlobalStyle`
 
   body {
     margin: 0;
-    font-family: --apple-system, 
-    BlinkMacSystemFont, 'Segoe UI', Roboto, 
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 
-    'Helvetica Neue', sans-serif;
+    font-family: Roboto, sans-serif;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, input, button {
+    font-family: Roboto, sans-serif;
   }
 `;
